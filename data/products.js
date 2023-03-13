@@ -1,4 +1,4 @@
-products = [{
+let products = [{
     "_id": "1",
     "name": "Samsung Galaxy S21",
     "image": "https://www.example.com/images/samsung-galaxy-s21.jpg",
@@ -36,4 +36,4 @@ products = [{
 }]
 
 
-module.exports = products
+export default products
