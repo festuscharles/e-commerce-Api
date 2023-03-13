@@ -1,19 +1,28 @@
 {
   "name": "e-commerceapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festuscharles/e-commerce-Api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/festuscharles/e-commerce-Api/issues"
+  },
+  "homepage": "https://github.com/festuscharles/e-commerce-Api#readme",
+  "description": ""
 }
